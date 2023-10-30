@@ -1,0 +1,42 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+#board-conatiner{
+    display: flex;
+    gap: 30px;
+    
+}
+.board{
+    
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 5px;
+    min-height: 500px;
+    box-shadow: 0cm;
+    
+}
+.task,.headrow{
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.task{
+    cursor:pointer;
+}
+
+.dragging{
+    background-color: black;
+    color:white;
+}
+#new_task{
+    width:200px;height:25px;
+    border:2px light black
+}
